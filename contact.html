@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enroll &amp; Contact | Softnet Technology Academy</title>
+<meta name="description" content="Enroll at Softnet Technology Academy in Abuja, Nigeria. Fill in the form with your name, WhatsApp number and the course you want.">
+<meta name="keywords" content="enroll tech course Abuja, contact Softnet Technology Academy, join tech academy Nigeria">
+<meta name="author" content="Vector David Kamsi Elvis">
+<meta name="theme-color" content="#0b0b1a">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#0b0b1a;color:#fff;line-height:1.6}
+a{color:#ff2e88;text-decoration:none}
+header{background:#12122b;border-bottom:2px solid #a855f7;position:sticky;top:0;z-index:10}
+.nav{max-width:1000px;margin:auto;padding:10px 16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:bold;font-size:1.05rem;color:#fff}
+.logo img{width:36px;height:36px;border-radius:50%}
+.logo span{color:#ff2e88}
+nav a{color:#fff;margin-left:14px;font-size:.95rem}
+nav a:hover,nav a.active{color:#ff2e88}
+.wrap{max-width:1000px;margin:auto;padding:36px 16px}
+.btn{display:inline-block;background:linear-gradient(90deg,#ff2e88,#a855f7);color:#fff;padding:12px 26px;border-radius:30px;font-weight:bold;border:0;font-size:1rem;cursor:pointer}
+.btn:hover{opacity:.9;color:#fff}
+.card{background:#14142e;border:1px solid #2a2a50;border-radius:12px;padding:22px}
+.card h3{color:#a855f7;margin-bottom:6px}
+.card p{color:#d4d4e8;font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.page-title{text-align:center;padding:50px 16px 10px;background:linear-gradient(135deg,#1a0b2e,#0b0b1a)}
+.page-title h1{font-size:2rem;margin-bottom:8px}
+.page-title h1 span{color:#ff2e88}
+.page-title p{color:#d4d4e8;max-width:600px;margin:0 auto 20px}
+h2{font-size:1.5rem;margin-bottom:18px;color:#fff}
+h2 span{color:#ff2e88}
+.center{text-align:center;margin-top:26px}
+footer{text-align:center;padding:24px 16px;background:#12122b;border-top:2px solid #ff2e88;font-size:.9rem;color:#d4d4e8}
+.wrap{max-width:600px}
+form{background:#14142e;border:1px solid #a855f7;border-radius:14px;padding:24px}
+label{display:block;margin:14px 0 6px;font-weight:bold;font-size:.95rem}
+label:first-of-type{margin-top:0}
+input,select,textarea{width:100%;padding:12px;border-radius:8px;border:1px solid #2a2a50;background:#0b0b1a;color:#fff;font-size:1rem;font-family:inherit}
+input:focus,select:focus,textarea:focus{outline:none;border-color:#ff2e88}
+textarea{min-height:120px;resize:vertical}
+button{margin-top:20px;width:100%}
+.note{text-align:center;color:#d4d4e8;font-size:.9rem;margin-top:16px}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<a class="logo" href="index.html"><img src="logo.png" alt="Softnet Technology Academy logo">Softnet <span>Academy</span></a>
+<nav>
+<a href="index.html">Home</a>
+<a href="courses.html">Courses</a>
+<a href="about.html">About</a>
+<a class="active" href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<section class="page-title">
+<h1>Enroll <span>Now</span></h1>
+<p>Fill in the form and we will contact you on WhatsApp.</p>
+</section>
+
+<main class="wrap">
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<input type="hidden" name="_subject" value="New Enrollment - Softnet Technology Academy">
+
+<label for="name">Full Name</label>
+<input type="text" id="name" name="name" placeholder="Your full name" required>
+
+<label for="whatsapp">WhatsApp Number</label>
+<input type="tel" id="whatsapp" name="whatsapp" placeholder="e.g. +234 800 000 0000" required>
+
+<label for="course">Course</label>
+<select id="course" name="course" required>
+<option value="">-- Select a course --</option>
+<option>Web Development (8 weeks)</option>
+<option>AI &amp; Prompt Engineering (4 weeks)</option>
+<option>Ethical Hacking (6 weeks)</option>
+<option>Graphics Design (4 weeks)</option>
+<option>Make Money With Tech (2 weeks)</option>
+</select>
+
+<label for="message">Message</label>
+<textarea id="message" name="message" placeholder="Tell us anything you would like us to know"></textarea>
+
+<button class="btn" type="submit">Submit Enrollment</button>
+</form>
+<p class="note">Based in Abuja, Nigeria</p>
+</main>
+
+<footer>Softnet Technology Academy - Abuja, Nigeria - Founder: Vector David Kamsi Elvis</footer>
+</body>
+</html>

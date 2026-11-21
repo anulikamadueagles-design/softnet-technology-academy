@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anulikamadueagles-design.github.io/softnet-technology-academy/sitemap.xml
